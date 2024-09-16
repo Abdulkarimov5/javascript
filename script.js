@@ -1,4 +1,4 @@
-alert("Я JavaScript!");
+/*alert("Я JavaScript!");
 
 let message;
 message = "Здравствуй пользователь";
@@ -23,3 +23,22 @@ alert(`Полученны новые данные, имя пользовател
 
 let work = confirm("Домашняя робата завершенна?");
 alert(work);
+
+let a = +prompt("Первое число?", 1);
+let b = +prompt("Второе число?", 2);
+
+alert(a + b);*/
+
+const number = prompt ("Введите число")
+
+function getPositivnes(value) {
+    if (value > 0) {
+        return 1
+    } else if (value < 0) {
+        return -1
+    } else {
+        return 0
+    }
+}
+
+console.log(getPositivnes(number))
