@@ -1,62 +1,58 @@
-/*alert("Я JavaScript!");
+/* const number = prompt ("Введите число")
 
-let message;
-message = "Здравствуй пользователь";
-alert(message);
+function getPositivnes(value) {
+    if (value > 0) {
+        return 1
+    } else if (value < 0) {
+        return -1
+    } else {
+        return 0
+    }
+}
 
-let message1 = "Я помогу тебе в работе с кодом";
-alert(message1)
+console.log(getPositivnes(number)); */
 
-let message2 = "Но сначало...",
-    message3 = "Изучи руководсто";
-alert(message2);
-alert(message3);
+/* const age = prompt("Ваш возраст?");
 
-const message4 = "Пользователь зарегистрирован 08.09.2024";
-alert(message4);
+function ageYear() {
+    if (age <= 7) {
+        return "Здравствуй, малыш!";
+    } else if (age <= 18) {
+        return "Привет!";
+    } else if (age <= 100) {
+        return "Здравствуйте!";
+    } else {
+        return "Какой необычный возраст!";
+    }
+}
 
-let message5 = "фокусировка";
-alert(`Полная ${message5} на изучении JavaScript`);
+console.log(ageYear(age)); */
 
-let name = prompt("Пользователь, введите ваше имя");
-alert(`Полученны новые данные, имя пользователя ${name}`);
+/* const number = prompt ("введите число")
 
-let work = confirm("Домашняя робата завершенна?");
-alert(work);*/
+function myNumber(value){
+    if (number < 0) {
+        return number/-1
+    } else {
+        return number
+    }
+}
+console.log(myNumber(number)); */
 
-let a = 1, b = 1;
+/* let number1 = prompt("Введите первое число");
+let number2 = prompt("Введите второе число");
 
-let c = ++a; // c=2
-let d = b++; // d=1
-alert(c);
-alert(d);
+let message = (number1 > number2) ? "Первое число больше" :
+    (number2 > number1) ? "Второе число больше" :
+    (number1 == number2) ? "Числа равны" : 
+    "Числа равны";
 
-let u = 2;
+console.log(message); */
 
-let x = 1 + (u *= 2); // x=5
-alert(x)
+/* let number = prompt("Введите число")
 
-"" + 1 + 0 // = (Здесь я просто затупил)
-"" - 1 + 0 // = -1
-true + false // = 1
-6 / "3" // = 2
-"2" * "3" // = 6
-4 + 5 + "px" // = NaN (Немного растерялся из-за переставноки значений, впомнил когда уже ответ посмотрел)
-"$" + 4 + 5 // = $45
-"4" - 2 // = 2
-"4px" - 2 // = NaN
-"  -9  " + 5 // = -9  5
-"  -9  " - 5 // = -14
-null + 1 // = 1
-undefined + 1 // = (Забыл как undefined реагирует в примере)
-" \t \n" - 2 // = -2
+let message = (number % 5 == 0) ? "Чиcло кратно 5" : 
+    (number % 5) ? "Число не кратно 5" :
+    "Чиcло не кратно 5";
 
-/*let a = prompt("Первое число?", 1);
-let b = prompt("Второе число?", 2);
-
-alert(a + b); = 12*/
-
-let i = prompt("Первое число?", 1);
-let o = prompt("Второе число?", 2);
-
-alert(+i + +o); // 12
+console.log(message) */
