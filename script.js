@@ -1,58 +1,81 @@
-/* const number = prompt ("Введите число")
+/* let age = prompt("Введите число");
 
-function getPositivnes(value) {
-    if (value > 0) {
-        return 1
-    } else if (value < 0) {
-        return -1
-    } else {
-        return 0
-    }
+switch (true) {
+    case (age >= 0 && age <=12):
+        alert ( 'Ребенок' );
+        break;
+
+    case (age >= 12 && age <= 18):
+        alert( 'Подросток');
+        break;
+
+    case (age >= 18 && age <= 60):
+        alert( 'Взрослый' );
+        break;
+
+    case (age >= 60):
+        alert( 'Пенсионер' );
+        break;
+
+    default:
+        alert( 'Кто вы?' );
+} */
+
+/* let symbol = prompt("Введите число");
+
+switch (+symbol) {
+    case 1 :
+        alert ('!');
+        break;
+
+    case 2 :
+        alert ('@');
+        break;
+
+    case 3 :
+        alert ('#');
+        break;
+
+    case 4 :
+        alert ('$');
+        break;
+
+    case 5 :
+        alert ('%');
+        break;
+
+    case 6 :
+        alert ('^');
+        break;
+
+    case 7 :
+        alert ('&');
+        break;
+
+    case 8 :
+        alert ('*');
+        break;
+
+    case 9 :
+        alert ('(');
+        break;
+
+    case 0 :
+        alert (')');
+        break;
+
+    default:
+        alert('Значение не найдено')
+} */
+
+/* let sum = 0;
+
+while (true) {
+let value = +prompt("Введите число");
+
+if (!value) break;
+sum += value;
+
 }
+alert( 'Сумма: ' + sum ); */
 
-console.log(getPositivnes(number)); */
-
-/* const age = prompt("Ваш возраст?");
-
-function ageYear() {
-    if (age <= 7) {
-        return "Здравствуй, малыш!";
-    } else if (age <= 18) {
-        return "Привет!";
-    } else if (age <= 100) {
-        return "Здравствуйте!";
-    } else {
-        return "Какой необычный возраст!";
-    }
-}
-
-console.log(ageYear(age)); */
-
-/* const number = prompt ("введите число")
-
-function myNumber(value){
-    if (number < 0) {
-        return number/-1
-    } else {
-        return number
-    }
-}
-console.log(myNumber(number)); */
-
-/* let number1 = prompt("Введите первое число");
-let number2 = prompt("Введите второе число");
-
-let message = (number1 > number2) ? "Первое число больше" :
-    (number2 > number1) ? "Второе число больше" :
-    (number1 == number2) ? "Числа равны" : 
-    "Числа равны";
-
-console.log(message); */
-
-/* let number = prompt("Введите число")
-
-let message = (number % 5 == 0) ? "Чиcло кратно 5" : 
-    (number % 5) ? "Число не кратно 5" :
-    "Чиcло не кратно 5";
-
-console.log(message) */
